@@ -86,6 +86,42 @@
 
   <main id="main">
 
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= INTRODUCCION Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
@@ -100,7 +136,8 @@
             <p>El DOM HTML (modelo de objetos de documento)
             Cuando se carga una página web, el navegador crea una D DOCUMENTO O bject M odelo de la página.</p>
 
-            <p>El modelo HTML DOM se construye como un árbol de objetos:</p>
+            <p>El modelo HTML DOM se construye como un árbol de objetos :
+            </p>
 
             <img src="img/int.gif" width="600" height="300">
             <ul> Con el modelo de objetos, JavaScript obtiene todo el poder que necesita para crear HTML dinámico:
@@ -144,6 +181,7 @@
 
       </div>
     </section><!-- End About Us Section -->
+
 
     <!-- ======= Metodos Section ======= -->
     <section id="services" class="services section-bg">
@@ -371,7 +409,7 @@ ARCHIVADO </li>
                 <span>La forma más fácil de encontrar un elemento HTML en el DOM es utilizando el ID del elemento.</span>
                 <p>Este ejemplo encuentra el elemento con id="intro":</p>
                 <div class="social">
-                <img src="img/el1.JPG" class="img-fluid" alt="">
+                <img src="img/el1.jpg" class="img-fluid" alt="">
                 
                 </div>
               </div>
@@ -383,9 +421,9 @@ ARCHIVADO </li>
               <div class="member-info">
                 <h4>Encontrar elementos HTML por nombre de etiqueta</h4>
                 <span>Este ejemplo encuentra todos los < p > elementos:</span>
-                <p><img src="img/el2.JPG"></p>
+                <p><img src="img/el2.jpg"></p>
                 <p>Este ejemplo encuentra el elemento con id="main", y luego encuentra todos los < p > elementos dentro "main":</p>
-                <p><img src="img/el3.JPG" > </p>
+                <p><img src="img/el3.jpg" > </p>
                 
               </div>
             </div>
@@ -398,7 +436,7 @@ ARCHIVADO </li>
                 <span>Si desea encontrar todos los elementos HTML con el mismo nombre de clase, utilice getElementsByClassName().</span>
                 <p>Este ejemplo devuelve una lista de todos los elementos con class="intro".</p>
                 <div class="social">
-                  <p><img src="img/el4.JPG" > </p>
+                  <p><img src="img/el4.jpg" > </p>
                 </div>
               </div>
             </div>
@@ -410,7 +448,7 @@ ARCHIVADO </li>
                 <h4>Encontrar elementos HTML mediante selectores CSS</h4>
                 <span>Si desea encontrar todos los elementos HTML que coincidan con un selector CSS especificado (id, nombres de clase, tipos, atributos, valores de atributos, etc.), utilice el querySelectorAll()método.</span>
                 <p>Este ejemplo devuelve una lista de todos los < p > elementos con class="intro".</p>
-                <p><img src="img/el5.JPG" > </p>
+                <p><img src="img/el5.jpg" > </p>
                 
               </div>
             </div>
@@ -421,7 +459,7 @@ ARCHIVADO </li>
               <div class="member-info">
                 <h4>Encontrar elementos HTML por colecciones de objetos HTML</h4>
                 <span>Este ejemplo busca el elemento de formulario con id="frm1", en la colección de formularios, y muestra todos los valores del elemento:</span>
-               <p><img src="img/el6.JPG" > </p>
+               <p><img src="img/el6.jpg" > </p>
                 
               </div>
             </div>
@@ -457,7 +495,7 @@ ARCHIVADO </li>
 
                 <p>- El documento HTML anterior contiene un < h1 >elemento conid="id01"</p>
                 <p>- Usamos el DOM HTML para obtener el elemento con id="id01"</p>
-                <p> - Un JavaScript cambia el contenido ( innerHTML) de ese elemento a "Nuevo título".</p>
+               <p> - Un JavaScript cambia el contenido ( innerHTML) de ese elemento a "Nuevo título".</p>
                 </p>
               </div>
             </li>
@@ -476,14 +514,14 @@ ARCHIVADO </li>
 
                 <p>El documento HTML anterior contiene un < img >elemento conid="myImage"
                 Usamos el DOM HTML para obtener el elemento con id="myImage"
-                Un JavaScript cambia el srcatributo de ese elemento de "smiley.gif" a "landscape.JPG".</p>
+                Un JavaScript cambia el srcatributo de ese elemento de "smiley.gif" a "landscape.jpg".</p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Contenido HTML dinámico <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>JavaScript puede crear contenido HTML dinámico:</p>
+                <p>JavaScript puede crear contenido HTML dinámico:
                   <p>Fecha: Tue Dec 14 2021 20:48:50 GMT-0500 (hora de Ecuador) </p>
                 </p>
                 <p><img src="img/html4.JPG" > </p>
@@ -519,7 +557,7 @@ ARCHIVADO </li>
 
           <p>document.getElementById(id).style.property = new style</p>
           <p>El siguiente ejemplo cambia el estilo de un < p > elemento:</p>
-          <p><img src="img/css1.JPG"></p>
+          <p><img src="img/css1.jpg"></p>
         </div>
 
         <div class="section-title">
